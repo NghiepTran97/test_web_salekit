@@ -1,0 +1,43 @@
+.body-procedure {
+    padding: 60px 0;
+    .container {
+        .procedure-title {
+            font-size: 32px;
+            color: #4a8ec8;
+            margin-bottom: 40px;
+        }
+        .procedure-content {
+            width: 992px;
+        }
+    }
+}
+@media screen and (max-width: 1024px) {
+    .procedure-content {
+        width: 960px !important;
+    }
+}
+@media screen and (max-width: 992px) {
+    .procedure-content {
+        width: 960px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .body-procedure {
+        padding: 30px 10px !important;
+    }
+    .procedure-title {
+        font-size: 20px !important;
+        margin-bottom: 20px !important;
+    }
+    .procedure-content {
+        width: 720px !important;
+    }
+}
+@media screen and (max-width: 576px) {
+    .body-procedure {
+        padding: 20px 10px !important;
+    }
+    .procedure-content {
+        width: 410px !important;
+    }
+}

@@ -1,0 +1,88 @@
+.body-package {
+    background-image: url(../images/bg-banner3.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+    .content-package {
+        .package-title h1{
+            color: #4a8ec8;
+            font-family: sans-serif;
+            font-size: 32px;
+            font-weight: 550;
+            margin-bottom: 16px;
+        }
+        .package-note p {
+            color: #686868;
+            font-size: 15px;
+        }
+        .package-main {
+            .package-group {
+                .box-item-package {
+                    font-family: Calibri;
+                    background-color: #fff;
+                    border-radius: 6px;
+                    box-shadow: 0px 0px 15px 6px rgb(154 161 171 / 25%);
+                    margin-top: 15px;
+                    position: relative;
+                    padding: 10px 30px 10px 25px;
+                    font-size: 18px;
+                    color: #686868;
+                    .number-package {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        position: absolute;
+                        width: 24px;
+                        height: 24px;
+                        background-color: #4a8ec8;
+                        border-radius: 50%;
+                        color: #fff;
+                        font-weight: 600;
+                        top: calc(50% - 12px);
+                        left: -12px;
+                        font-size: 16px;
+                    }
+                }
+            }
+            .package-left {
+                margin-top: 16px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .body-package {
+        padding: 30px 10px;
+    }
+    .package-title h1 {
+        font-size: 20px !important;
+        margin-bottom: 10px !important;
+    }
+    .package-note p {
+        margin: 0 !important;
+        font-size: 10px !important;
+    }
+    .box-item-package {
+        margin-top: 15px;
+        padding: 8px 10px 8px 20px !important;
+        font-size: 11px !important;
+        .number-package {
+            position: absolute;
+            width: 18px !important;
+            height: 18px !important;
+            left: -10px !important;
+            font-size: 11px !important;
+        }
+    }
+    .package-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .package-group {
+        padding: 0 !important;
+        margin-top: 0 !important;
+    }
+}
